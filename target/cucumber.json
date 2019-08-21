@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "My demo report validation in jenkins",
+        "description": "",
+        "id": "test-validation-for-the-git-jenkins-integration;my-demo-report-validation-in-jenkins",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21233002100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "TestMe is up and running",
+            "match": {
+              "location": "DemJen.testme_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8754682900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "registered user enter the valid creds",
+            "match": {
+              "location": "DemJen.registered_user_enter_the_valid_creds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53086400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verifies for the login status for his cred",
+            "match": {
+              "location": "DemJen.verifies_for_the_login_status_for_his_cred()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test validation for the git jenkins integration",
+    "description": "",
+    "id": "test-validation-for-the-git-jenkins-integration",
+    "keyword": "Feature",
+    "uri": "Feature456/mytest999.feature",
+    "tags": []
+  }
+]
